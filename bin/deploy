@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ $1 ]; then
+  docker build -t sanguinebio/culture .
+  docker tag sanguinebio/culture sanguinebio/culture:$1
+  docker push sanguinebio/culture:$1
+  deis pull sanguinebio/culture:$1
+else
+  echo Please provide a version - ie: 1.0.0
+fi
+
