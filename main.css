@@ -94,7 +94,7 @@ main {
 
 @media (max-width: 600px) {
   .motto {
-    width: 400px;
+    width: 430px;
   }
 
   .videoWrapper iframe {
@@ -107,7 +107,20 @@ main {
 
 @media (max-width: 400px) {
   .motto {
-    width: 300px;
+    width: 350px;
+  }
+
+  .videoWrapper iframe {
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 1.00em;
+}
+
+@media (max-width: 300px) {
+  .motto {
+    width: 250px;
   }
 
   .videoWrapper iframe {
