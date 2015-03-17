@@ -1,86 +1,94 @@
-/* h1 { */
-/*   font-size: 1.50em; */
-/*   line-height: 1.1em; */
-/*   margin: 0 0 0.5em; */
-/*   letter-spacing: -1px; */
-/* } */
-/*  */
-/* header { */
-/*   display: flex; */
-/*   justify-content: center; */
-/*   margin-top: 20px; */
-/*   margin-bottom: 20px; */
-/* } */
-/*  */
-/* .videoWrapper { */
-/*   max-width: 640px; */
-/*   display: block; */
-/*   margin-left: auto; */
-/*   margin-right: auto; */
-/* } */
-/*  */
-/* .videoWrapper iframe { */
-/*   width: 80%; */
-/*   height: 360px; */
-/*   border-top-width: 0px; */
-/*   border-right-width: 0px; */
-/*   border-bottom-width: 0px; */
-/*   border-left-width: 0px; */
-/* } */
-/*  */
-/* main { */
-/*   padding-left: 30px; */
-/*   padding-right: 30px; */
-/* } */
-/*  */
-/* .motto { */
-/*   display: flex; */
-/*   justify-content: center; */
-/*   font-size: 33px; */
-/*   font-weight: bold; */
-/* } */
-/*  */
-/* .team { */
-/*   display: flex; */
-/*   justify-content: center; */
-/*   font-size: 33px; */
-/*   font-weight: bold; */
-/* } */
-/*  */
-/* .conf { */
-/*   display: flex; */
-/*   justify-content: center; */
-/*   font-size: 33px; */
-/*   font-weight: bold; */
-/* } */
-/*  */
-/* .hiring { */
-/*   /* max-width: 200px; */ */
-/*   display: flex; */
-/*   justify-content: center; */
-/*   margin-bottom: 30px; */
-/* } */
-/*  */
-/* .hiring-link, hiring-link:hover { */
-/*   justify-content: center; */
-/*   text-decoration: none; */
-/*   font-size: 1em; */
-/*   font-family: AvenirBlack; */
-/*   padding: 6px 28px; */
-/*   background-color: #4a85c5; */
-/*   border-radius: 0; */
-/*   color: #ffffff; */
-/*   background-image: none; */
-/*   border: none; */
-/* } */
-/*  */
-/* .hiring-link:hover { */
-/*   opacity: 9; */
-/*   color: white; */
-/* } */
-/*  */
-/* @media (max-width: 600px) { */
-/*   h1 { */
-/*     font-size: 1.00em; */
-/*   } */
-/* } */
+h1 {
+  font-size: 1.50em;
+  line-height: 1.1em;
+  margin: 0 0 0.5em;
+  letter-spacing: -1px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.video {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.videoWrapper {
+  max-width: 640px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.videoWrapper iframe {
+  width: 80%;
+  height: 360px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  margin-bottom: 30px;
+}
+
+main {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.motto {
+  display: flex;
+  justify-content: center;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.conf {
+  display: flex;
+  justify-content: center;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.hiring {
+  /* max-width: 200px; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.hiring-link, hiring-link:hover {
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: AvenirBlack;
+  padding: 6px 28px;
+  background-color: #4a85c5;
+  border-radius: 0;
+  color: #ffffff;
+  background-image: none;
+  border: none;
+}
+
+.hiring-link:hover {
+  opacity: 9;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.00em;
+  }
+}
