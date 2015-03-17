@@ -27,6 +27,7 @@ open [http://localhost](http://localhost)
 deis open (open the website in the default browser)
 
 
-## Misc commands
+## Misc
 
     deis domains:add culture.sanguinebio.com -a culture
+    https://registry.hub.docker.com/u/sanguinebio/culture/tags/manage/
