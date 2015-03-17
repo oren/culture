@@ -16,13 +16,8 @@ open [http://localhost](http://localhost)
 
 ## Deploy with Deis - using image
 
-    docker login
-    docker build -t sanguinebio/culture .
-    docker tag sanguinebio/culture sanguinebio/culture:0.0.1
-    docker push sanguinebio/culture:0.0.1            # push to dockerhub
-    mkdir /tmp/culture && cd /tmp/culture
-    deis create culture
-    deis pull sanguinebio/culture:0.0.1              # push to deis
+    docker login                # dockerhub user
+    bin/deploy                  # push image to dockerhub and transfer it to the internal registry and publish the app
 
 deis open (open the website in the default browser)
 
