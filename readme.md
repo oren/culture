@@ -22,6 +22,10 @@ open [http://localhost](http://localhost)
 deis open (open the website in the default browser)
 
 
+## Deploy with rsync
+
+    rsync -a $(pwd) culture:
+
 ## Misc
 
 * deis domains:add culture.sanguinebio.com -a culture
